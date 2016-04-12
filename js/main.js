@@ -17,7 +17,7 @@ loadData();
 function loadData() {
 
   // Hubway XML station feed
-  var url = 'http://www.thehubway.com/data/stations/bikeStations.xml';
+  var url = 'https://www.thehubway.com/data/stations/bikeStations.xml';
 
   // TO-DO: LOAD DATA
   var yql = 'http://query.yahooapis.com/v1/public/yql?q='
