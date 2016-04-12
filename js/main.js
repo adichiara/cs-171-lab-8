@@ -20,7 +20,7 @@ function loadData() {
   var url = 'https://www.thehubway.com/data/stations/bikeStations.xml';
 
   // TO-DO: LOAD DATA
-  var yql = 'http://query.yahooapis.com/v1/public/yql?q='
+  var yql = 'https://query.yahooapis.com/v1/public/yql?q='
       + encodeURIComponent('SELECT * FROM xml WHERE url="' + url + '"')
       + '&format=json&callback=?';
 // Send an asynchronous HTTP request with jQuery
